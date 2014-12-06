@@ -175,17 +175,12 @@
   "answer": "There are a few bowling alleys in this area:",
   "url": "http://www.yelp.com/search?find_desc=bowling+alleys&find_loc=Bushwick%2C+Brooklyn%2C+NY/"
 },
-{ "question": “What are the best contemporary art galleries around here?”,
-  "answer": “Check out these 10 galleries in Bushwick:”,
+{ "question": "What are the best contemporary art galleries around here?",
+  "answer": "Check out these 10 galleries in Bushwick:",
   "url": "http://www.roberthenrycontemporary.com/press/20141104-nyc-culture-guide-bushwicks-10-best-contemporary-art-galleries/"
 },
-{ "question": “Are there any speakeasies in Bushwick?”,
-  "answer": “There are. But you should try this one:”,
+{ "question": "Are there any speakeasies in Bushwick?",
+  "answer": "There are. But you should try this one:",
   "url": "http://gothamist.com/2014/02/06/1_knickerbocker.php#photo-1/"
 }
-{ "question": “Are there any speakeasies in Bushwick?”,
-  "answer": “There are. But you should try this one:”,
-  "url": "http://gothamist.com/2014/02/06/1_knickerbocker.php#photo-1/"
-}
-
 ]
