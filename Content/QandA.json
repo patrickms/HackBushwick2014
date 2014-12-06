@@ -53,7 +53,7 @@
 },
 { "question": "How far is JFK airport from Bushwick?",
   "answer": "Not too far. It is about 25 minutes without traffic",
-  "url": "http://mapq.st/1tZlnht"
+  "url": "http://open.mapquest.com/embed?hk=12OFnwP"
 },
 { "question": "How far is LGA airport from Bushwick?",
   "answer": "Not too far. It is about 25 minutes without traffic",
@@ -141,10 +141,6 @@
 },
 { "question": "What is the best pizzeria?",
   "answer": "Roberts is a famous and top rated pizzeria in Bushwick",
-  "url": "http://www.zagat.com/r/robertas-new-york"
-},
-{ "question": "What is the best pizzeria?",
-  "answer": "Robertas is a famous and top rated pizzeria in Bushwick",
   "url": "http://www.zagat.com/r/robertas-new-york"
 },
 { "question": "Where are the best happy hours?",
