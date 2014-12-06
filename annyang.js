@@ -147,6 +147,10 @@
   	x=x.replace(" la guardia airport "," lga ");
   	x=x.replace(" in "," ");
   	x=x.replace(" show "," ");
+  	x=x.replace(" show "," ");
+  	x=x.replace(" around here "," ");
+  	x=x.replace(" going on "," ");
+  	x=x.replace(" closest "," ");
   	x=x.trim();
   	console.log(x);
   	return stemmer(x);
