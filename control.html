@@ -36,11 +36,11 @@ alert('boo')
 .column-right{ float: right; min-width:160px; width: 160px; }
 .column-center{ display: inline-block; width: *; }
         </style>
-<script src="/PorterStemmer1980.js"></script>
-<script src="/annyang.js"></script>
-<script src="/headtrackr.js"></script>
+<script src="PorterStemmer1980.js"></script>
+<script src="annyang.js"></script>
+<script src="headtrackr.js"></script>
 <script>
-parent.postMessage("http://en.wikipedia.org/wiki/Bushwick,_Brooklyn","*");
+parent.postMessage("http://en.wikipedia.org/wiki/Bushwick,_Brooklyn?printable=yes","*");
 
 function listener(event){
   if ( event.origin !== "http://hackbushwick.ngrok.com" && event.origin !== "https://hackbushwick.ngrok.com" )
@@ -52,7 +52,17 @@ if (window.addEventListener){
   addEventListener("message", listener, false)
 } else {
   attachEvent("onmessage", listener)
-}
+}		
+function headManager (event) {
+    if (event.status == "found") {
+    	document.getElementById("message").innerText="Face found. Listening.";
+  		annyang.start();
+    }
+    if (event.status == "lost" || event.status == "stopped" || event.status == "redetecting") {
+    	document.getElementById("message").innerText="Face lost. Not listening.";
+  		annyang.abort();
+    }
+  }
 function createCommand(question, answer, url)
 {
 	return function() {
@@ -71,6 +81,8 @@ function createCommand(question, answer, url)
 						
 
 					}
+					document.removeEventListener('headtrackrStatus',headManager);
+					document.addEventListener('headtrackrStatus',headManager);
       			}
 }
 if (annyang) {
@@ -89,14 +101,14 @@ if (annyang) {
 	  		 var theAnswer=qanda[i].question;
     		commands[qanda[i].question] = createCommand(qanda[i].question,qanda[i].answer, qanda[i].url);
 	  	}	
-  		annyang.addCommands(commands);
+  		annyang.addNormalisedCommands(commands);
     		//console.log(commands);
   		annyang.start();
 	};
 	annyang.debug(true);
 	var oReq = new XMLHttpRequest();
 	oReq.onload = reqListener;
-	oReq.open("get", "/Content/QandA.json", true);
+	oReq.open("get", "/HackBushwick2014/Content/QandA.json", true);
 	oReq.send();
 
   // Start listening. You can call this here, or attach this call to an event, button, etc.
@@ -147,19 +159,11 @@ if (annyang) {
 					//headtrackerStatus("no camera");
 					//insertAltVideo(video);
 				});
-				
+		
 document.addEventListener('headtrackrStatus', 
-  function (event) {
-    if (event.status == "found") {
-    	document.getElementById("message").innerText="Face found. Listening.";
-  		annyang.start();
-    }
-    if (event.status == "lost" || event.status == "stopped" || event.status == "redetecting") {
-    	document.getElementById("message").innerText="Face lost. Not listening.";
-  		annyang.abort();
-    }
-  }
+  headManager
 );
+
 </script>
 </body>
 </html>

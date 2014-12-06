@@ -17,7 +17,7 @@ function getChildFrame(id){
 //control.postMessage("Fuck you, too!");
 
 function listener(event){
-  if ( event.origin !== "http://hackbushwick.ngrok.com" && event.origin !== "https://hackbushwick.ngrok.com" )
+  if ( event.origin !== "http://hackbushwick.ngrok.com" && event.origin !== "https://hackbushwick.ngrok.com" && event.origin.search("github")<0 )
     return
   window.open(event.data,"content");
 }
@@ -31,7 +31,7 @@ if (window.addEventListener){
 
 </head>
 <frameset rows="160px,*">
-  <frame id="control" name="control" src="https://hackbushwick.ngrok.com/control.html">
+  <frame id="control" name="control" src="https://patrickms.github.io/HackBushwick2014/control.html">
   <frame id="content" name="content" src="">
 </frameset>
 </html>

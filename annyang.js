@@ -248,7 +248,7 @@
           // the text recognized
           commandText = results[i].transcript.trim();
           
-      	  commandText=normalise(commandText);
+      	  var commandTextNormalised=normalise(commandText);
           if (debugState) {
             root.console.log('Speech recognized: %c'+commandText, debugStyle);
           }
@@ -257,6 +257,8 @@
           for (var j = 0, l = commandsList.length; j < l; j++) {
             var result = commandsList[j].command.exec(commandText);
             console.log(result);
+            if(!result)
+            	var result = commandsList[j].command.exec(commandTextNormalised);
             if (result) {
               var parameters = result.slice(1);
               if (debugState) {
@@ -384,6 +386,29 @@
      * @see [Commands Object](#commands-object)
      */
     addCommands: function(commands) {
+      var cb,
+          command;
+
+      initIfNeeded();
+
+      for (var phrase in commands) {
+        if (commands.hasOwnProperty(phrase)) {
+          cb = root[commands[phrase]] || commands[phrase];
+          if (typeof cb !== 'function') {
+            continue;
+          }
+          //convert command to regex
+      	  var phrase1=phrase;
+          command = commandToRegExp(phrase1);
+		  console.log(command);
+          commandsList.push({ command: command, callback: cb, originalPhrase: phrase, transformedPhrase: phrase1 });
+        }
+      }
+      if (debugState) {
+        root.console.log('Commands successfully loaded: %c'+commandsList.length, debugStyle);
+      }
+    },
+    addNormalisedCommands: function(commands) {
       var cb,
           command;
 
