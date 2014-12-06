@@ -2,5 +2,41 @@
 { "question": "Show me the Wikipedia entry of Bushwick",
   "answer": "Here it is",
   "url": "http://en.wikipedia.org/wiki/Bushwick,_Brooklyn"
+},
+{ "question": "Show me some Latin restaurants in Bushwick",
+  "answer": "Here it is",
+  "url": "http://www.yelp.com/search?find_desc=Latin+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me some Chinese restaurants in Bushwick",
+  "answer": "Here it is",
+  "url": "http://www.yelp.com/search?find_desc=Chinese+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me some American restaurants in Bushwick",
+  "answer": "Here it is",
+  "url": "http://www.yelp.com/search?find_desc=American+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me some Japanese restaurants in Bushwick",
+  "answer": "Here it is",
+  "url": "http://www.yelp.com/search?find_desc=Japanese+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me some Italian restaurants in Bushwick",
+  "answer": "Here it is",
+  "url": "http://www.yelp.com/search?find_desc=Italian+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me some cafes in Bushwick",
+  "answer": "Here it is",
+  "url": "http://www.yelp.com/search?find_desc=cafes&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me some coffee shops in Bushwick",
+  "answer": "Here it is",
+  "url": "http://www.yelp.com/search?find_desc=coffee&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me some pizza places in Bushwick",
+  "answer": "Here it is",
+  "url": "http://www.yelp.com/search?find_desc=pizza&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me some ice cream shops in Bushwick",
+  "answer": "Here it is",
+  "url": "http://www.yelp.com/search?find_desc=ice+cream&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 }
 ]
