@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>
+Bushwick info kiosk
+</title>
+<!--
+<noscript>
+var recognition = new webkitSpeechRecognition();
+recognition.continuous = false; //True for dictating long tests, false for short queries
+recognition.interimResults = true; //false
+recognition.lang = "en";
+recognition.onresult = function (event) {
+console.log(event);
+for (var i = event.resultIndex; i < event.results.length; ++i) {
+        if (event.results[i].isFinal) {
+        	console.log(event.results[i][0].transcript);
+            alert(event.results[i][0].transcript);
+        }
+    }
+};
+recognition.start();
+alert('boo')
+</noscript>
+-->
+        <style type="text/css">
+            body, html
+            {
+                margin: 0; padding: 0; height: 100%; overflow: hidden;
+            }
+
+            #content
+            {
+                position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
+            }
+            .column-left{ float: left; min-width:160px; width: 160px; }
+.column-right{ float: right; min-width:160px; width: 160px; }
+.column-center{ display: inline-block; width: *; }
+        </style>
+<script src="/PorterStemmer1980.js"></script>
+<script src="/annyang.js"></script>
+<script src="/headtrackr.js"></script>
+<script>
+parent.postMessage("http://en.wikipedia.org/wiki/Bushwick,_Brooklyn","*");
+
+function listener(event){
+  if ( event.origin !== "http://hackbushwick.ngrok.com" && event.origin !== "https://hackbushwick.ngrok.com" )
+    return
+  alert(event.data)
+}
+ 
+if (window.addEventListener){
+  addEventListener("message", listener, false)
+} else {
+  attachEvent("onmessage", listener)
+}
+function createCommand(question, answer, url)
+{
+	return function() {
+      				//alert(answer);
+      				if(url)
+      				{
+      					if(url.search("google")>=0)
+      						url=url+"&output=embed";
+						parent.postMessage(url,"*");
+					}
+					if(answer)
+					{
+						document.getElementById("message").innerText=answer;
+						var utterance = new SpeechSynthesisUtterance(answer);
+						window.speechSynthesis.speak(utterance);
+						
+
+					}
+      			}
+}
+if (annyang) {
+  // Let's define our first command. First the text we expect, and then the function it should call
+ 
+
+  // Add our commands to annyang
+  
+	function reqListener () {
+  		//console.log(this.responseText);	
+  		qanda=JSON.parse(this.responseText);
+	  	var commands = {};
+  		for(var i=0; i<qanda.length; i++)
+  		{
+	  		//console.log(qanda);
+	  		 var theAnswer=qanda[i].question;
+    		commands[qanda[i].question] = createCommand(qanda[i].question,qanda[i].answer, qanda[i].url);
+	  	}	
+  		annyang.addCommands(commands);
+    		//console.log(commands);
+  		annyang.start();
+	};
+	annyang.debug(true);
+	var oReq = new XMLHttpRequest();
+	oReq.onload = reqListener;
+	oReq.open("get", "/Content/QandA.json", true);
+	oReq.send();
+
+  // Start listening. You can call this here, or attach this call to an event, button, etc.
+};
+</script>
+</head>
+<body>
+   <div class="column-center"><h2 id="message">Starting up</h2></div>
+   <div class="column-left"></div>
+   <div class="column-right">
+<video id="displayVideo" height="120" width="160" autoplay loop></video>
+<canvas id="inputCanvas" width="320" height="240" style="display:none"></canvas>
+<video id="inputVideo" style="display:none" autoplay loop></video>
+</div>
+
+<script type="text/javascript">
+  var videoInput = document.getElementById('inputVideo');
+  var canvasInput = document.getElementById('inputCanvas');
+
+  var htracker = new headtrackr.Tracker();
+  htracker.init(videoInput, canvasInput);
+  htracker.start();
+  
+				var videoSelector = {video : true};
+				if (window.navigator.appVersion.match(/Chrome\/(.*?) /)) {
+					var chromeVersion = parseInt(window.navigator.appVersion.match(/Chrome\/(\d+)\./)[1], 10);
+					if (chromeVersion < 20) {
+						videoSelector = "video";
+					}
+				};
+				
+				// opera shim
+				if (window.opera) {
+					window.URL = window.URL || {};
+					if (!window.URL.createObjectURL) window.URL.createObjectURL = function(obj) {return obj;};
+				}
+  var video=document.getElementById("displayVideo")
+				navigator.getUserMedia(videoSelector, (function( stream ) {
+					//headtrackerStatus("camera found");
+					this.stream = stream;
+					if (video.mozCaptureStream) {
+					  video.mozSrcObject = stream;
+					} else {
+					  video.src = (window.URL && window.URL.createObjectURL(stream)) || stream;
+					}
+					video.play();
+				}).bind(this), function() {
+					//headtrackerStatus("no camera");
+					//insertAltVideo(video);
+				});
+				
+document.addEventListener('headtrackrStatus', 
+  function (event) {
+    if (event.status == "found") {
+    	document.getElementById("message").innerText="Face found. Listening.";
+  		annyang.start();
+    }
+    if (event.status == "lost" || event.status == "stopped" || event.status == "redetecting") {
+    	document.getElementById("message").innerText="Face lost. Not listening.";
+  		annyang.abort();
+    }
+  }
+);
+</script>
+</body>
+</html>
