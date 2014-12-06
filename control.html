@@ -63,6 +63,15 @@ function headManager (event) {
   		annyang.abort();
     }
   }
+  function noMatch(text) {
+      				//alert(answer);
+      				var answer="Could not understand "+text
+						document.getElementById("message").innerText=answer;
+						var utterance = new SpeechSynthesisUtterance(answer);
+						window.speechSynthesis.speak(utterance);
+						
+
+}
 function createCommand(question, answer, url)
 {
 	return function() {

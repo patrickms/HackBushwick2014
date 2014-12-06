@@ -274,6 +274,7 @@
               // execute the matched command
               commandsList[j].callback.apply(this, parameters);
               invokeCallbacks(callbacks.resultMatch);
+              noMatch(results[i].transcript.trim());
               return true;
             }
           }
