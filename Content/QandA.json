@@ -1,10 +1,10 @@
 [
 { "question": "Show me the Wikipedia entry of Bushwick",
-  "answer": "Here it is",
+  "answer": "Here it is:",
   "url": "https://en.wikipedia.org/wiki/Bushwick,_Brooklyn"
 },
 { "question": "Show me some Latin restaurants in Bushwick",
-  "answer": "Here are some of the highest rated Latin restaurants",
+  "answer": "Here are some of the highest rated Latin restaurants:",
   "url": "https://www.yelp.com/search?find_desc=Latin+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some Chinese restaurants in Bushwick",
@@ -56,63 +56,83 @@
   "url": "http://open.mapquest.com/embed?hk=12OFnwP"
 },
 { "question": "How far is LGA airport from Bushwick?",
-  "answer": "Not too far. It is about 25 minutes without traffic",
-  "url": "https://www.google.com/maps/dir/Bushwick,+Brooklyn,+NY/LaGuardia+Airport,+NY/@40.732389,-73.9549419,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x89c25c11aa458453:0x8b29c89949c0c67c!2m2!1d-73.9212858!2d40.6944282!1m5!1m1!1s0x89c25f8983424db5:0x772fc4660e9666b3!2m2!1d-73.873966!2d40.776927"
+  "answer": "Not too far. It is about 25 minutes without traffic.",
+  "url": "http://open.mapquest.com/embed?hk=12OHLUh"
+},
+{ "question": "How do I get to Penn Station from Bushwick?",
+  "answer": "Here are the driving directions. Penn Station is about 8 miles away from here. It will take approximately 20 minutes without traffic.",
+  "url": "http://www.mapquest.com/embed?hk=1q962yq"
+},
+{ "question": "How do I get to Grand Central from Bushwick?",
+  "answer": "Here are the driving directions. Grand Central Station is about 8 miles away from here. It will take approximately 20 minutes without traffic.",
+  "url": "http://www.mapquest.com/embed?hk=1tZyhfe"
+},
+{ "question": "How do I get to Times Square from Bushwick?",
+  "answer": "Here are the driving directions. Times Square is about 8 miles away from here. It will take approximately 17 minutes without traffic.",
+  "url": "http://www.mapquest.com/embed?hk=1s6uCM1"
+},
+{ "question": "How do I get to Chinatown from Bushwick?",
+  "answer": "Here are the driving directions. Chinatown is about 6 miles away from here. It will take approximately 18 minutes without traffic.",
+  "url": "http://www.mapquest.com/embed?hk=1yquVnj"
+},
+{ "question": "How do I get to Central Park from Bushwick?",
+  "answer": "Here are the driving directions. Central Park is about 8 miles away from here. It will take approximately 22 minutes without traffic.",
+  "url": "http://www.mapquest.com/embed?hk=12aKjLF"
 },
 { "question": "Is today a good day to walk the Brooklyn Bridge?",
-  "answer": "I’m not sure. Let’s check the weather",
+  "answer": "I’m not sure. Let’s check the weather.",
   "url": "http://www.accuweather.com/en/us/bushwick-ny/11221/daily-weather-forecast/2624674"
 },
 { "question": "What are some museums I can check out?",
   "answer": "You’re in for a treat. There are many museums near Bushwick",
-  "url": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=list+of+museums+in+bushwick&rflfq=1&tbm=lcl"
+  "url": "http://www.mapquest.com/embed?hk=12aISwB"
 },
 { "question": "What are the newest spots to check out?",
-  "answer": "Bushwick Daily is a great source. Let’s take a look at new places",
+  "answer": "Bushwick Daily is a great source. Let’s take a look at new places.",
   "url": "http://bushwickdaily.com/tag/new-places/"
 },
 { "question": "Where can I check out graffiti in Bushwick?",
-  "answer": "Here is a map of graffiti around in Bushwick",
+  "answer": "Here is a map of graffiti around in Bushwick:",
   "url": "http://freewilliamsburg.com/self-guided-bushwick-graffiti-tour/"
 },
 { "question": "How should I spend a day in Bushwick?",
-  "answer": "Here are my suggestions",
+  "answer": "Here are my suggestions:",
   "url": "https://www.timeout.com/newyork/art/a-day-in-bushwick"
 },
 { "question": "Are there any good shows tonight?",
-  "answer": "Check here for some shows in the area",
+  "answer": "Check here for some shows in the area:",
   "url": "http://bushwickdaily.com/category/music/"
 },
 { "question": "What are the subway stations in Bushwick?",
-  "answer": "Here are the subway stops in the area",
+  "answer": "Here are the subway stops in the area:",
   "url": "http://bushwickdaily.com/2013/02/a-newbies-guide-to-bushwick-subway-stops/"
 },
 { "question": "Are there any farmers markets in Bushwick?",
-  "answer": "Yes there is Bushwick Farmers Market. Take a look",
+  "answer": "Yes, there is Bushwick Farmers Market. Take a look:",
   "url": "http://www.bushwickfarmersmarket.org/"
 },
 { "question": "Are there any flea markets in Bushwick?",
-  "answer": "Yes there is Shwick. Here take a look",
+  "answer": "Yes, there is Shwick. Here, take a look:",
   "url": "http://shwick.us/"
 },
 { "question": "Where can I rent a bike?",
-  "answer": "Here are a few places",
+  "answer": "Here are a few places:",
   "url": "https://www.yelp.com/search?cflt=bikerentals&find_loc=Bushwick%2C+Brooklyn%2C+NY#find_desc=bike+rental&cflt&l=p:NY:New_York:Brooklyn:Bushwick/"
 },
 { "question": "Where are the best thrift stores in Bushwick?",
-  "answer": "Here are a few places",
+  "answer": "Here are a few places:",
   "url": "http://brokeandchic.com/the-best-places-to-go-thrift-shopping-in-bushwick-brooklyn/"
 },
 { "question": "Where are some parks in Bushwick?",
-  "answer": "Here are a few parks in the area but here is the most popular",
+  "answer": "Here are a few parks in the area but here is the most popular:",
   "url": "http://www.bushwickinletpark.org/"
 },
 { "question": "Where can I catch a movie?",
-  "answer": "I recommend this theater",
+  "answer": "I recommend this theater:",
   "url": "http://www.nitehawkcinema.com/"
 },
 { "question": "What art galleries are there in the area?",
-  "answer": "Here is a list of art galleries and studios",
+  "answer": "Here is a list of art galleries and studios:",
   "url": "http://bushwickdaily.com/2014/09/a-newbies-guide-to-the-bushwick-art-scene-select-galleries-studios-who-is-who-and-where-to-submit/"
 },
 { "question": "Where should I go shopping?",
@@ -120,35 +140,39 @@
   "url": "http://shopsattheloom.com/"
 },
 { "question": "Are there any vegan restaurants in Bushwick?",
-  "answer": "Yes here are some",
+  "answer": "Yes, here are some vegan restaurants:",
   "url": "http://www.yelp.com/search?find_desc=vegan+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Are there any vegetarian restaurants in Bushwick?",
-  "answer": "Yes here are some",
+  "answer": "Yes, here are some:",
   "url": "http://www.yelp.com/search?find_desc=vegetarian+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "What are some famous attractions here?",
-  "answer": "Here are a few",
+  "answer": "Here are a few:",
   "url": "http://bushwickdaily.com/2013/03/bushwick-attractions-for-tourists-as-welcomed-by-mayor-bloomberg/"
 },
 { "question": "Where can I get the best doughnut?",
-  "answer": "Here is a top rated doughnut shop in Bushwick",
+  "answer": "Here is a top rated doughnut shop in Bushwick:",
   "url": "http://dunwelldoughnuts.com/"
 },
 { "question": "Where can I get the best doughnut?",
-  "answer": "Here is a top rated doughnut shop in Bushwick",
+  "answer": "Here is a top rated doughnut shop in Bushwick:",
   "url": "http://dunwelldoughnuts.com/"
 },
 { "question": "What is the best pizzeria?",
-  "answer": "Roberts is a famous and top rated pizzeria in Bushwick",
+  "answer": "Roberts is a famous and top rated pizzeria in Bushwick.",
   "url": "http://www.zagat.com/r/robertas-new-york"
 },
 { "question": "Where are the best happy hours?",
-  "answer": "Here are a few local favorites",
+  "answer": "Here are a few local favorites:",
   "url": "http://bushwickdaily.com/2013/10/happy-hour-in-bushwick-where-to-drink-after-work/"
 },
 { "question": "Are there any good performances going on?",
-  "answer": "Check out the Bushwick Starr for some performances",
+  "answer": "Check out the Bushwick Starr for some performances:",
   "url": "http://www.thebushwickstarr.org/"
+},
+{ "question": "Are there any bowling alleys around here?",
+  "answer": "There are a few bowling alleys in this area:",
+  "url": "http://www.yelp.com/search?find_desc=bowling+alleys&find_loc=Bushwick%2C+Brooklyn%2C+NY/"
 }
 ]
