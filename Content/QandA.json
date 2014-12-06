@@ -104,7 +104,28 @@
   "url": "http://brokeandchic.com/the-best-places-to-go-thrift-shopping-in-bushwick-brooklyn/"
 },
 { "question": "Where are some parks in Bushwick?",
-  "answer": "Here are a few parks” in the area but here is the most popular",
+  "answer": "Here are a few parks in the area but here is the most popular",
   "url": "http://www.bushwickinletpark.org/"
-}
+},
+{ "question": "Where can I catch a movie?",
+  "answer": "I recommend this theater",
+  "url": "http://www.nitehawkcinema.com/"
+},
+{ "question": "What art galleries are there in the area?",
+  "answer": "Here is a list of art galleries and studios",
+  "url": "http://bushwickdaily.com/2014/09/a-newbies-guide-to-the-bushwick-art-scene-select-galleries-studios-who-is-who-and-where-to-submit/"
+},
+{ "question": "Where should I go shopping?",
+  "answer": "I recommend here",
+  "url": "http://shopsattheloom.com/"
+},
+{ "question": "Are there any vegan restaurants in Bushwick?",
+  "answer": "Yes here are some",
+  "url": "http://www.yelp.com/search?find_desc=vegan+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Are there any vegetarian restaurants in Bushwick?",
+  "answer": "Yes here are some",
+  "url": "http://www.yelp.com/search?find_desc=vegetarian+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+
 ]
