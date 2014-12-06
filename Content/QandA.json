@@ -87,4 +87,24 @@
   "answer": "Here are the subway stops in the area",
   "url": "http://bushwickdaily.com/2013/02/a-newbies-guide-to-bushwick-subway-stops/"
 },
+{ "question": "Are there any farmers markets in Bushwick?",
+  "answer": "Yes there is Bushwick Farmers Market. Take a look",
+  "url": "http://www.bushwickfarmersmarket.org/"
+},
+{ "question": "Are there any flea markets in Bushwick?",
+  "answer": "Yes there is Shwick. Here take a look",
+  "url": "http://shwick.us/"
+},
+{ "question": "Where can I rent a bike?",
+  "answer": "Here are a few places",
+  "url": "https://www.yelp.com/search?cflt=bikerentals&find_loc=Bushwick%2C+Brooklyn%2C+NY#find_desc=bike+rental&cflt&l=p:NY:New_York:Brooklyn:Bushwick/"
+},
+{ "question": "Where are the best thrift stores in Bushwick?",
+  "answer": "Here are a few places",
+  "url": "http://brokeandchic.com/the-best-places-to-go-thrift-shopping-in-bushwick-brooklyn/"
+},
+{ "question": "Where are some parks in Bushwick?",
+  "answer": "Here are a few parks” in the area but here is the most popular",
+  "url": "http://www.bushwickinletpark.org/"
+}
 ]
