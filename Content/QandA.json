@@ -8,7 +8,7 @@
   "url": "https://www.yelp.com/search?find_desc=Latin+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some Chinese restaurants in Bushwick",
-  "answer": "Here are some great Chinese restaurants",
+  "answer": "Here are some great Chinese restaurants:",
   "url": "https://www.yelp.com/search?find_desc=Chinese+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some American restaurants in Bushwick",
@@ -32,18 +32,18 @@
   "url": "https://www.yelp.com/search?find_desc=coffee&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some pizza places in Bushwick",
-  "answer": "There are a plenty of great pizza places in Bushwick. Here are some",
+  "answer": "There are plenty of great pizza places in Bushwick. Here are some",
   "url": "https://www.yelp.com/search?find_desc=pizza&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
-{ "question": "Show me some ice cream shops in Bushwick",
+{ "question": "Show me some ice cream shops in Bushwick?",
   "answer": "Here are some of the best rated ice cream shops in Bushwick",
   "url": "https://www.yelp.com/search?find_desc=ice+cream&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
-{ "question": "Show me the best bars in Bushwick",
+{ "question": "Show me the best bars in Bushwick?",
   "answer": "Bushwick has a great bar scene. Here are some favorites",
   "url": "https://www.yelp.com/search?find_desc=bars&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
-{ "question": "Show me the some lounges in Bushwick",
+{ "question": "What are some cool lounges in Bushwick?",
   "answer": "Bushwick has great nightlife. Here are some lounges",
   "url": "https://www.yelp.com/search?find_desc=lounges&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
@@ -88,15 +88,15 @@
   "url": "http://www.mapquest.com/embed?hk=12aISwB"
 },
 { "question": "What are the newest spots to check out?",
-  "answer": "Bushwick Daily is a great source. Let’s take a look at new places.",
+  "answer": "Bushwick Daily is a great source. Let’s take a look at their article new places.",
   "url": "http://bushwickdaily.com/tag/new-places/"
 },
 { "question": "Where can I check out graffiti in Bushwick?",
-  "answer": "Here is a map of graffiti around in Bushwick:",
+  "answer": "Here is a map of graffiti spots in Bushwick:",
   "url": "http://freewilliamsburg.com/self-guided-bushwick-graffiti-tour/"
 },
 { "question": "How should I spend a day in Bushwick?",
-  "answer": "Here are my suggestions:",
+  "answer": "Only one day? Please come back soon but here are my suggestions:",
   "url": "https://www.timeout.com/newyork/art/a-day-in-bushwick"
 },
 { "question": "Are there any good shows tonight?",
@@ -128,7 +128,7 @@
   "url": "http://www.bushwickinletpark.org/"
 },
 { "question": "Where can I catch a movie?",
-  "answer": "I recommend this theater:",
+  "answer": "I recommend visiting this theater:",
   "url": "http://www.nitehawkcinema.com/"
 },
 { "question": "What art galleries are there in the area?",
@@ -183,7 +183,7 @@
   "answer": "There are. But you should try this one:",
   "url": "http://gothamist.com/2014/02/06/1_knickerbocker.php#photo-1/"
 },
-{ "question": "Where is the the closest library?",
+{ "question": "Where is the closest library?",
   "answer": "The closest library is the Bushwick Library located on 340 Bushwick Avenue.",
   "url": "http://www.bklynlibrary.org/locations/bushwick"
 },
@@ -196,7 +196,7 @@
   "url": "http://www.yelp.com/search?find_desc=activities&find_loc=Bushwick%2C+Brooklyn%2C+NY#find_desc=yoga&sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "What are some good running routes in the area?",
-  "answer": "Bushwick and Brooklyn has many scenic runs. Here are a few:",
+  "answer": "Bushwick and Brooklyn have many scenic runs. Here are a few:",
   "url": "http://southbrooklynrunning.com/routes/"
 },
 { "question": "What can I do on a Friday night in Bushwick?",
@@ -214,5 +214,9 @@
 { "question": "Are there any outdoor bars?",
   "answer": "There are a few but I like The Rookery the best:",
   "url": "http://freewilliamsburg.com/listings/the-rookery"
+},
+{ "question": "Where can I get the best latte?",
+  "answer": "Express Yourself Barista Bar has excellent lattes:",
+  "url": "http://www.yelp.com/biz/express-yourself-barista-bar-brooklyn?osq=latte"
 }
 ]
