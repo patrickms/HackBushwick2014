@@ -1,42 +1,90 @@
 [
 { "question": "Show me the Wikipedia entry of Bushwick",
   "answer": "Here it is",
-  "url": "http://en.wikipedia.org/wiki/Bushwick,_Brooklyn"
+  "url": "https://en.wikipedia.org/wiki/Bushwick,_Brooklyn"
 },
 { "question": "Show me some Latin restaurants in Bushwick",
-  "answer": "Here it is",
-  "url": "http://www.yelp.com/search?find_desc=Latin+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+  "answer": "Here are some",
+  "url": "https://www.yelp.com/search?find_desc=Latin+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some Chinese restaurants in Bushwick",
-  "answer": "Here it is",
-  "url": "http://www.yelp.com/search?find_desc=Chinese+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+  "answer": "Here are some great ones",
+  "url": "https://www.yelp.com/search?find_desc=Chinese+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some American restaurants in Bushwick",
   "answer": "Here it is",
-  "url": "http://www.yelp.com/search?find_desc=American+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+  "url": "https://www.yelp.com/search?find_desc=American+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some Japanese restaurants in Bushwick",
   "answer": "Here it is",
-  "url": "http://www.yelp.com/search?find_desc=Japanese+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+  "url": "https://www.yelp.com/search?find_desc=Japanese+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some Italian restaurants in Bushwick",
   "answer": "Here it is",
-  "url": "http://www.yelp.com/search?find_desc=Italian+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+  "url": "https://www.yelp.com/search?find_desc=Italian+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some cafes in Bushwick",
   "answer": "Here it is",
-  "url": "http://www.yelp.com/search?find_desc=cafes&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+  "url": "https://www.yelp.com/search?find_desc=cafes&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some coffee shops in Bushwick",
   "answer": "Here it is",
-  "url": "http://www.yelp.com/search?find_desc=coffee&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+  "url": "https://www.yelp.com/search?find_desc=coffee&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some pizza places in Bushwick",
   "answer": "Here it is",
-  "url": "http://www.yelp.com/search?find_desc=pizza&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+  "url": "https://www.yelp.com/search?find_desc=pizza&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some ice cream shops in Bushwick",
   "answer": "Here it is",
-  "url": "http://www.yelp.com/search?find_desc=ice+cream&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
-}
+  "url": "https://www.yelp.com/search?find_desc=ice+cream&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me the best bars in Bushwick",
+  "answer": "Here it is",
+  "url": "https://www.yelp.com/search?find_desc=bars&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Show me the some lounges in Bushwick",
+  "answer": "Here it is",
+  "url": "https://www.yelp.com/search?find_desc=lounges&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "Where can I get good brunch?",
+  "answer": "Here are my suggestions around Bushwick",
+  "url": "http://freewilliamsburg.com/listings/the-best-brunch-in-williamsburg-greenpoint-and-bushwick"
+},
+{ "question": "How far is JFK airport from Bushwick?",
+  "answer": "Not too far. It is about 25 minutes without traffic",
+  "url": "https://www.google.com/maps/dir/Bushwick,+Brooklyn,+NY/John+F.+Kennedy+International+Airport,+New+York,+NY+11430/@40.6712864,-73.9978249,11z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x89c25c11aa458453:0x8b29c89949c0c67c!2m2!1d-73.9212858!2d40.6944282!1m5!1m1!1s0x89c26650d5404947:0xec4fb213489f11f0!2m2!1d-73.778139!2d40.641311"
+},
+{ "question": "How far is LGA airport from Bushwick?",
+  "answer": "Not too far. It is about 25 minutes without traffic",
+  "url": "https://www.google.com/maps/dir/Bushwick,+Brooklyn,+NY/LaGuardia+Airport,+NY/@40.732389,-73.9549419,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x89c25c11aa458453:0x8b29c89949c0c67c!2m2!1d-73.9212858!2d40.6944282!1m5!1m1!1s0x89c25f8983424db5:0x772fc4660e9666b3!2m2!1d-73.873966!2d40.776927"
+},
+{ "question": "Is today a good day to walk the Brooklyn Bridge?",
+  "answer": "I’m not sure. Let’s check the weather",
+  "url": "http://www.accuweather.com/en/us/bushwick-ny/11221/daily-weather-forecast/2624674"
+},
+{ "question": "What are some museums I can check out?",
+  "answer": "You’re in for a treat. There are many museums near Bushwick",
+  "url": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=list+of+museums+in+bushwick&rflfq=1&tbm=lcl"
+},
+{ "question": "What are the newest spots to check out?",
+  "answer": "Bushwick Daily is a great source. Let’s take a look at new places",
+  "url": "http://bushwickdaily.com/tag/new-places/"
+},
+{ "question": "Where can I check out graffiti in Bushwick?",
+  "answer": "Here is a map of graffiti around in Bushwick",
+  "url": "http://freewilliamsburg.com/self-guided-bushwick-graffiti-tour/"
+},
+{ "question": "How should I spend a day in Bushwick?",
+  "answer": "Here are my suggestions",
+  "url": "https://www.timeout.com/newyork/art/a-day-in-bushwick"
+},
+{ "question": "Are there any good shows tonight?",
+  "answer": "Check here for some shows in the area",
+  "url": "http://bushwickdaily.com/category/music/"
+},
+{ "question": "What are the subway stations in Bushwick?",
+  "answer": "Here are the subway stops in the area",
+  "url": "http://bushwickdaily.com/2013/02/a-newbies-guide-to-bushwick-subway-stops/"
+},
 ]
