@@ -274,11 +274,11 @@
               // execute the matched command
               commandsList[j].callback.apply(this, parameters);
               invokeCallbacks(callbacks.resultMatch);
-              noMatch(results[i].transcript.trim());
               return true;
             }
           }
         }
+              noMatch(results[i].transcript.trim());
         invokeCallbacks(callbacks.resultNoMatch);
         return false;
       };
