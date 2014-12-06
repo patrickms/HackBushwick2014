@@ -4,56 +4,56 @@
   "url": "https://en.wikipedia.org/wiki/Bushwick,_Brooklyn"
 },
 { "question": "Show me some Latin restaurants in Bushwick",
-  "answer": "Here are some",
+  "answer": "Here are some of the highest rated Latin restaurants",
   "url": "https://www.yelp.com/search?find_desc=Latin+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some Chinese restaurants in Bushwick",
-  "answer": "Here are some great ones",
+  "answer": "Here are some great Chinese restaurants",
   "url": "https://www.yelp.com/search?find_desc=Chinese+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some American restaurants in Bushwick",
-  "answer": "Here it is",
+  "answer": "There are many delicious American restaurants in Bushwick",
   "url": "https://www.yelp.com/search?find_desc=American+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some Japanese restaurants in Bushwick",
-  "answer": "Here it is",
+  "answer": "Here are some of the top Japanese restaurants in Bushwick",
   "url": "https://www.yelp.com/search?find_desc=Japanese+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some Italian restaurants in Bushwick",
-  "answer": "Here it is",
+  "answer": "Here is a list of the best Italian spots in Bushwick",
   "url": "https://www.yelp.com/search?find_desc=Italian+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some cafes in Bushwick",
-  "answer": "Here it is",
+  "answer": "Here are some cafes in Bushwick",
   "url": "https://www.yelp.com/search?find_desc=cafes&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some coffee shops in Bushwick",
-  "answer": "Here it is",
+  "answer": "Here is a list of the top coffee shops in Bushwick",
   "url": "https://www.yelp.com/search?find_desc=coffee&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some pizza places in Bushwick",
-  "answer": "Here it is",
+  "answer": "There are a plenty of great pizza places in Bushwick. Here are some",
   "url": "https://www.yelp.com/search?find_desc=pizza&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me some ice cream shops in Bushwick",
-  "answer": "Here it is",
+  "answer": "Here are some of the best rated ice cream shops in Bushwick",
   "url": "https://www.yelp.com/search?find_desc=ice+cream&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me the best bars in Bushwick",
-  "answer": "Here it is",
+  "answer": "Bushwick has a great bar scene. Here are some favorites",
   "url": "https://www.yelp.com/search?find_desc=bars&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Show me the some lounges in Bushwick",
-  "answer": "Here it is",
+  "answer": "Bushwick has great nightlife. Here are some lounges",
   "url": "https://www.yelp.com/search?find_desc=lounges&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
 },
 { "question": "Where can I get good brunch?",
-  "answer": "Here are my suggestions around Bushwick",
+  "answer": "Here are my brunch suggestions in Bushwick",
   "url": "http://freewilliamsburg.com/listings/the-best-brunch-in-williamsburg-greenpoint-and-bushwick"
 },
 { "question": "How far is JFK airport from Bushwick?",
   "answer": "Not too far. It is about 25 minutes without traffic",
-  "url": "https://www.google.com/maps/dir/Bushwick,+Brooklyn,+NY/John+F.+Kennedy+International+Airport,+New+York,+NY+11430/@40.6712864,-73.9978249,11z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x89c25c11aa458453:0x8b29c89949c0c67c!2m2!1d-73.9212858!2d40.6944282!1m5!1m1!1s0x89c26650d5404947:0xec4fb213489f11f0!2m2!1d-73.778139!2d40.641311"
+  "url": "http://mapq.st/1tZlnht"
 },
 { "question": "How far is LGA airport from Bushwick?",
   "answer": "Not too far. It is about 25 minutes without traffic",
@@ -126,5 +126,33 @@
 { "question": "Are there any vegetarian restaurants in Bushwick?",
   "answer": "Yes here are some",
   "url": "http://www.yelp.com/search?find_desc=vegetarian+restaurants&find_loc=Bushwick%2C+Brooklyn%2C+NY&ns=1#sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "What are some famous attractions here?",
+  "answer": "Here are a few",
+  "url": "http://bushwickdaily.com/2013/03/bushwick-attractions-for-tourists-as-welcomed-by-mayor-bloomberg/"
+},
+{ "question": "Where can I get the best doughnut?",
+  "answer": "Here is a top rated doughnut shop in Bushwick",
+  "url": "http://dunwelldoughnuts.com/"
+},
+{ "question": "Where can I get the best doughnut?",
+  "answer": "Here is a top rated doughnut shop in Bushwick",
+  "url": "http://dunwelldoughnuts.com/"
+},
+{ "question": "What is the best pizzeria?",
+  "answer": "Roberts is a famous and top rated pizzeria in Bushwick",
+  "url": "http://www.zagat.com/r/robertas-new-york"
+},
+{ "question": "What is the best pizzeria?",
+  "answer": "Robertas is a famous and top rated pizzeria in Bushwick",
+  "url": "http://www.zagat.com/r/robertas-new-york"
+},
+{ "question": "Where are the best happy hours?",
+  "answer": "Here are a few local favorites",
+  "url": "http://bushwickdaily.com/2013/10/happy-hour-in-bushwick-where-to-drink-after-work/"
+},
+{ "question": "Are there any good performances going on?",
+  "answer": "Check out the Bushwick Starr for some performances",
+  "url": "http://www.thebushwickstarr.org/"
 }
 ]
