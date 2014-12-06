@@ -182,5 +182,29 @@
 { "question": "Are there any speakeasies in Bushwick?",
   "answer": "There are. But you should try this one:",
   "url": "http://gothamist.com/2014/02/06/1_knickerbocker.php#photo-1/"
-}
+},
+{ "question": "Where is the the closest library?",
+  "answer": "The closest library is the Bushwick Library located on 340 Bushwick Avenue.",
+  "url": "http://www.bklynlibrary.org/locations/bushwick"
+},
+{ "question": "Are there any book stores in Bushwick?",
+  "answer": "There is a great one called Molasses Books. You should stop by and take a look.",
+  "url": "https://www.facebook.com/MolassesBooks"
+},
+{ "question": "Where can I take a yoga classes?",
+  "answer": "There are several yoga studios and places to do yoga. Check out this list. Namaste.",
+  "url": "http://www.yelp.com/search?find_desc=activities&find_loc=Bushwick%2C+Brooklyn%2C+NY#find_desc=yoga&sortby=rating&l=p:NY:New_York:Brooklyn:Bushwick"
+},
+{ "question": "What are some good running routes in the area?",
+  "answer": "Bushwick and Brooklyn has many scenic runs. Here are a few:",
+  "url": "http://southbrooklynrunning.com/routes/"
+},
+{ "question": "What can I do on a Friday night in Bushwick?",
+  "answer": "Check out some nightlife events here:",
+  "url": "http://joonbug.com/brooklyn/events/"
+},
+{ "question": "What does Bushwick look like?",
+  "answer": "Here are some pictures:",
+  "url": "https://www.airbnb.com/locations/new-york/bushwick"
+},
 ]
