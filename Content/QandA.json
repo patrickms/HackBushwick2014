@@ -207,4 +207,12 @@
   "answer": "Here are some pictures:",
   "url": "https://www.airbnb.com/locations/new-york/bushwick"
 },
+{ "question": "What is the best park to explore in Bushwick?",
+  "answer": "I highly recommend Bushwick Inlet Park:",
+  "url": "http://www.nycgovparks.org/parks/bushwick-inlet-park"
+},
+{ "question": "Are there any outdoor bars?",
+  "answer": "There are a few but I like The Rookery the best:",
+  "url": "http://freewilliamsburg.com/listings/the-rookery"
+}
 ]
