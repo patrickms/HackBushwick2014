@@ -278,7 +278,8 @@
             }
           }
         }
-              noMatch(results[i].transcript.trim());
+        if(results.length>0)
+              noMatch(results[0].transcript.trim());
         invokeCallbacks(callbacks.resultNoMatch);
         return false;
       };
