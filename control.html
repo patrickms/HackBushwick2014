@@ -81,7 +81,7 @@ function headManager (event) {
 						{
 							var utterance = new SpeechSynthesisUtterance(answer);
 							utterance.onend=restartRecognitionIfFace;
-							anyang.abort();
+							annyang.abort();
 							window.speechSynthesis.speak(utterance);
 						}
 						
@@ -104,7 +104,7 @@ function createCommand(question, answer, url)
 						{
 							var utterance = new SpeechSynthesisUtterance(answer);
 							utterance.onend=restartRecognitionIfFace;
-							anyang.abort();
+							annyang.abort();
 							window.speechSynthesis.speak(utterance);
 						}
 						
