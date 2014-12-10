@@ -53,22 +53,36 @@ if (window.addEventListener){
 } else {
   attachEvent("onmessage", listener)
 }		
+
+var HEADTRACKR_FOUNDFACE=false;
+function restartRecognitionIfFace(ev)
+{
+	if(HEADTRACKR_FOUNDFACE)
+		annyang.start();
+}
 function headManager (event) {
     if (event.status == "found") {
     	document.getElementById("message").innerText="Face found. Listening.";
-  		annyang.start();
+    	if(!window.speechSynthesis.speaking)
+	  		annyang.start();
+  		HEADTRACKR_FOUNDFACE=true;
     }
     if (event.status == "lost" || event.status == "stopped" || event.status == "redetecting") {
     	document.getElementById("message").innerText="Face lost. Not listening.";
   		annyang.abort();
+  		HEADTRACKR_FOUNDFACE=false;
     }
   }
   function noMatch(text) {
       				//alert(answer);
       				var answer="Could not understand "+text
 						document.getElementById("message").innerText=answer;
-						var utterance = new SpeechSynthesisUtterance(answer);
-						window.speechSynthesis.speak(utterance);
+						if(!window.speechSynthesis.speaking)
+						{
+							var utterance = new SpeechSynthesisUtterance(answer);
+							utterance.onend=restartRecognitionIfFace;
+							window.speechSynthesis.speak(utterance);
+						}
 						
 
 }
@@ -85,8 +99,12 @@ function createCommand(question, answer, url)
 					if(answer)
 					{
 						document.getElementById("message").innerText=answer;
-						var utterance = new SpeechSynthesisUtterance(answer);
-						window.speechSynthesis.speak(utterance);
+						if(!window.speechSynthesis.speaking)
+						{
+							var utterance = new SpeechSynthesisUtterance(answer);
+							utterance.onend=restartRecognitionIfFace;
+							window.speechSynthesis.speak(utterance);
+						}
 						
 
 					}
